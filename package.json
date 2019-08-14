@@ -1,0 +1,25 @@
+{
+  "name": "cipher-project",
+  "version": "0.1.0",
+  "description": "proyecto cifrado cesar",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Betsi12/Cipher-project.git"
+  },
+  "keywords": [
+    "cipher-project"
+  ],
+  "author": "Betsi Salas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Betsi12/Cipher-project/issues"
+  },
+  "homepage": "https://github.com/Betsi12/Cipher-project#readme"
+}

@@ -26,7 +26,7 @@
       <p class="ask" >Ingresa tu mensaje</p>
       <input type="text" id="texto"><br>
       <p class="ask">Ingresa tu numero clave</p>
-     <input type="string" id="clave"><br><br>
+      <input type= "number" id="clave"  min="1" ><br><br>
       <button id="submit"><i class="fas fa-lock"></i>Codificar</button> 
       </div>
       <div id="columnader2">
@@ -38,6 +38,31 @@
     <div id="pie2"></div>
   </div>
  </div>
+ <div id="screen3"><!-- Aqui muestro pantalla3 -->
+  <div id="principal3">
+       <div id="cabecera3"><br><i class="fas fa-lock-open"></i>Generar password anterior
+       </div>
+       <div id="columnaizq3" class="columnaizq">
+       <p class="ask">Ingresa la contraseña PinCipher</p>
+       <input type="text" id="texto2"><br>
+       <p class="ask">Ingresa tu numero clave</p>
+       <input type= "number" id="clave2"  min="1" ><br><br>
+       <button id="submit2"><i class="fas fa-lock-open"></i>Decodificar</button> 
+       </div>
+       <div id="columnader3">
+       <div id="descifrado">Aqui aparece tu mensaje descifrado</div><br><br>
+       <p class="ask">Regresa a escoger otra opción</p><br><br>
+     <button id="option4"><i class="fas fa-undo-alt"></i>Volver</button>
+   </div>
+   <div class="clear"></div>
+
+     <div id="pie3"></div>
+   </div>
+  </div>
+  <script src="cipher.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
 
       <!-- <header class ="box-header">
         <h1><i> Top Secret </i></h1>

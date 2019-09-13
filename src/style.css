@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ #boxTwo {
+    text-align: center;
+    color:black
+    width: 80%;
+    padding: 10px;
+    
+    
+}
+
+body{
+    background-image: url("https://fondos.io/wp-content/uploads/2019/01/fondo-celeste-3.jpg");
+    background-attachment: fixed;
+    color:black;
+}
+
